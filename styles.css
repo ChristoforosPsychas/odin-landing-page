@@ -13,10 +13,17 @@ body {
     justify-content: space-between;
     margin-bottom: 60px;
 }
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
 
-.header-links {
+ul {
     display: flex;
+    margin: 0;
+    padding: 0;
     gap: 18px;
+    list-style-type: none;
 }
 
 .header h3 {
@@ -33,7 +40,7 @@ body {
 .hero-content-text p {
     margin: 5px 0px;
 }
-.hero-content-text p, .header-links {
+.hero-content-text p {
     font-size: 18px;
     color: #E5E7EB;
 }
