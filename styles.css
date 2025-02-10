@@ -58,3 +58,33 @@ ul {
     border: none;
     border-radius: 5px;
 }
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.info {
+    max-width: 150px;
+    text-align: center;
+}
+
+.empty {
+    border: 3px solid #3882F6; 
+    border-radius: 13px;
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    margin-top: 8px;
+}
