@@ -104,3 +104,27 @@ ul {
 .text {
     margin-top: 8px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    margin-top: 50px;
+}
+.quote-content {
+    padding: 80px;
+}
+
+.quote-content p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    max-width: 900px;
+    text-align: start;
+    align-items: center;
+}
+
+.quote-content span {
+    font-weight: bold;
+    text-align: end;
+}
