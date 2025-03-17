@@ -110,7 +110,11 @@ ul {
     margin-top: 50px;
 }
 .quote-content {
-    padding: 80px;
+    padding: 75px 150px;
+    max-width: 820px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-content p {
@@ -119,12 +123,11 @@ ul {
     font-style: italic;
     color: #1F2937;
     margin: 0;
-    max-width: 900px;
-    text-align: start;
-    align-items: center;
+    
 }
 
 .quote-content span {
     font-weight: bold;
-    text-align: end;
+    align-self: flex-end;
+    font-size: 21px;
 }
